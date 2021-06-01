@@ -1,5 +1,12 @@
 a {
   color: #11999E;
+  font-family: 'Sacramento';
+  margin: auto 20px auto 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
 }
 
 body {
@@ -37,9 +44,7 @@ hr {
 
 .bottom-container {
   background-color: #aad8d3;
-  margin: 50px auto 0 auto;
-  padding-top: 30px;
-  position: relative;
+  padding: 50px 0 20px 0;
 }
 
 .bottom-cloud {
@@ -47,40 +52,39 @@ hr {
 }
 
 .BUTTON_ONU {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   color: #FFFFFF;
-   font-family: 'Arial';
-   font-size: 20px;
-   font-weight: 100;
-   padding: 10px;
-   border: solid #66BFBF 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Arial';
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .BUTTON_ONU:hover {
-   border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 .contact-me {
@@ -88,7 +92,13 @@ hr {
   margin-top: 100px;
 }
 
-.fridge{
+.copyright {
+  color: #EAF6F6;
+   font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.fridge {
   border-radius: 50%;
   height: 200px;
 }
@@ -107,9 +117,10 @@ hr {
   float: right;
   margin-left: 30px;
 }
+
 .middle-container {
-  width:75%;
-margin:auto;
+  width: 75%;
+  margin: auto;
 }
 
 .profile {
@@ -119,7 +130,7 @@ margin:auto;
 
 .skill-row {
   width: 60%;
-  margin:auto auto 100px auto;
+  margin: auto auto 100px auto;
   line-height: 1.5;
   padding-top: 30px;
   padding-bottom: 30px;
